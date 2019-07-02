@@ -3,7 +3,19 @@
 
 
 
-function mesageArea(msg)
+var view = {
+
+
+napisGora: function(msg)
 {
-	napis = "tesr"
+	var napis = document.getElementById("messageArea");
+	napis.innerHTML = msg;
+	console.log(msg);
 }
+	
+
+};
+
+
+view.napisGora("test2");
+
